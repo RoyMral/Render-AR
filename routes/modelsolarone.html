@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hidroeléctrica RA</title>
+    <title>Solar RA</title>
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="/js/script.js"></script>
@@ -11,8 +11,10 @@
   <body style="margin: 0 auto; overflow: hidden">
     <a-scene embedded arjs="sourceType: webcam;">
       <a-marker preset="hiro">
-        <a-entity position="0 0 0" scale="1 1 1" rotation="60 90 -90">
-          <a-gltf-model src="/assets/hidro/hidroone/scene.gltf" />
+        <a-entity position="0 0 0" scale="0.3 0.3 0.3" rotation="250 90 -90">
+          <a-gltf-model
+            src="https://raw.githubusercontent.com/RoyMral/AR-Gltf/main/solar/solar2/solar2.gltf"
+          />
         </a-entity>
         <a-light type="ambient" color="#555"></a-light>
         <a-light
