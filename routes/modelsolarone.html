@@ -11,7 +11,12 @@
   <body style="margin: 0 auto; overflow: hidden">
     <a-scene embedded arjs="sourceType: webcam;">
       <a-marker preset="hiro">
-        <a-entity position="0 0 0" scale="0.3 0.3 0.3" rotation="250 90 -90">
+        <a-entity
+          class="container-gltf"
+          position="0 0 0"
+          scale="0.3 0.3 0.3"
+          rotation="250 90 -90"
+        >
           <a-gltf-model
             src="https://raw.githubusercontent.com/RoyMral/AR-Gltf/main/solar/solar2/solar2.gltf"
           />

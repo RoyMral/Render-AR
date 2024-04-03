@@ -10,7 +10,12 @@
   <body style="margin: 0 auto; overflow: hidden">
     <a-scene embedded arjs="sourceType: webcam;">
       <a-marker preset="hiro">
-        <a-entity position="0 0 0" scale="1 1 1" rotation="60 90 -90">
+        <a-entity
+          class="container-gltf"
+          position="0 0 0"
+          scale="1 1 1"
+          rotation="60 90 -90"
+        >
           <a-gltf-model
             src="https://raw.githubusercontent.com/RoyMral/AR-Gltf/main/hidro/hidroone/scene.gltf"
           />
